@@ -1,0 +1,19 @@
+//conversions
+
+let variablename = Number(variablename)
+/* "33" => 33
+   "33abc" => NaN
+   true => 1; false => 0
+*/
+
+
+let variablename = String(variablename)
+
+let variablename = Boolean(variablename)
+/*
+  1 => true; 
+  0 => false
+  "" => false;  
+  "niki" => true
+*/
+
