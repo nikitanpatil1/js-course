@@ -30,8 +30,8 @@ let isLoggedIn = true
 
 /* 
   - object 
-  - array
-  - functions
+   (array and functions are also objects ) so they are also non primitive 
+   typeof is object and of function is functions object)
 */
 
 
