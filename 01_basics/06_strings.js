@@ -14,3 +14,32 @@ console.log(gameName)
 
 
 //string methods/ prototypes
+
+/*
+
+ .at(index)
+ .charAt(index)
+ .concat(str1, strn)
+ .endsWith(searchString, endPosition)
+ .includes(searchString, position)
+ .indexOf(searchString)
+ .lastIndexOf(searchString)
+ .padEnd(targetLength, padString)
+ .padStart(targetLength, padString)
+ .repeat(count)
+ .replace(pattern, replacement)
+ .replaceAll(pattern, replacement)
+ .slice(indexStart, indexEnd)
+ .split(separator, limit)
+ .startsWith(searchString, position)
+ .substring(indexStart, indexEnd)
+ .toLowerCase()
+ .toString()
+ .toUpperCase()
+ .trim()
+ .trimEnd()
+ .trimStart()
+ .valueOf()
+
+ 
+*/
