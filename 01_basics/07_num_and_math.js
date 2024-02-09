@@ -1,4 +1,4 @@
-
+ 
 // Number
 
 const balance = new Number(100); // this means ...new object is defined which is number type
@@ -46,8 +46,52 @@ console.log(hundreds.toLocaleString('en-IN')); //out- 10,00,000
 // it's a library that comes with JS by default
 // it's also an object
 
-// values/ properties in Math
-/* 
- 
+// properties & values in Math
+/*
+ *property (there are many) 
+  Math.PI 
+
+ *Methods (these are some of them)
+   x = number/value
+
+  Math.abs(x)
+  Math.round(x)
+  Math.ceil(x)
+  Math.floor(x)
+  Math.sqrt(x)
+  Math.pow(base, exponent)
+  Math.min(value1, 2, valuen)
+  Math.max(value1, 2, valuen)
+  Math.random()
+  Math.
+
 */
 
+console.log(Math.abs(-4)); //out- 4
+console.log(Math.round(4.6)); //out- 5
+console.log(Math.ceil(4.2)); //out- 5
+console.log(Math.floor(4.9)); //out- 4
+console.log(Math.min(4, 3, 5, 8)); //out- 3
+console.log(Math.max(6, 2, 7, 3)); //out- 7
+
+
+// its value will always be between 0 - 1
+console.log(Math.random()); 
+
+
+// if you want the values in specific range then you multiply that value with the number till where you want it to be.
+console.log(Math.random()*6); 
+
+
+// if u dont want the value to start from 0.. then do +1 in the total value
+console.log((Math.random()*6) + 1);
+
+
+// if you want the output to be single digit value then add floor property
+console.log(Math.floor((Math.random()*6) + 1));
+
+// u can use this method by defining the start and end value
+const min = 10; // start value
+const max = 20; // end value
+
+console.log(Math.floor((Math.random()*(max - min)) + 1) + min)
