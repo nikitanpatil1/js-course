@@ -4,7 +4,7 @@
 const myArr = [1, 2, "niki", "pat", true];
 
 // JS arrays are not associative arrays i.e if u want to access an item from the array then u have to use its index number e.g- 
-console.log(myArr[1]);
+// console.log(myArr[1]);
 
 // JS arrays are 0 indexed i.e index numbering starts from 0
 
@@ -18,7 +18,7 @@ console.log(myArr[1]);
 
 // another ay to declare array
 const myArr2 = new Array(1, 2, 3, 4)
-console.log(myArr2)
+// console.log(myArr2)
 
 //Array methods
 /* 
@@ -35,6 +35,14 @@ arr.unshift(0); // out- [0, 1, 2, 3, 4, 5] adds new item to the start of array
 
 arr.shift(); // out- [1, 2, 3, 4, 5] removes the first item from the array
 
+arr.includes(5); // out- true  it is used to ask question/ to check values in arrays
 
-console.log(arr)
+arr.indexOf(5);
 
+arr.join(); // out- 1,2,3,4,5  converts the array on which applied to string
+  
+const myArr3 = new Array(1, 2, 3, 4, 5) 
+console.log(myArr3.slice(1, 3)) // out- [2, 3] and original array [1, 2, 3, 4, 5] i.e it prints the selected range and dosent manipulates original array.
+console.log(myArr3)
+console.log(myArr3.splice(1, 3)) // out- [2, 3, 4] and original array [1, 5] i.e it prints the range including the next item also and it dose manipulates the original array.
+console.log(myArr3)
