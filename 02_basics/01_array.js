@@ -45,7 +45,8 @@ console.log(myArr2)
 */
 
 const arr = [1, 2, 3, 4, 5]
-arr.push(6); // out- [1, 2, 3, 4, 5, 6] add new item at the end
+arr.push(6); // out- [1, 2, 3, 4, 5, 6] add new item at the end 
+//push() pushes into existing array
 
 arr.pop(); // out- [1, 2, 3, 4, 5] removes the last item from array
 
