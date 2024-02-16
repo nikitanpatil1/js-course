@@ -104,6 +104,6 @@ const user1 = {
     'age': 43
 }
 
-const { name, age } = user;// you can extract 1, 2 or how many values you want to extract
+const { name, age } = user1;// you can extract 1, 2 or how many values you want to extract
 
 console.log(name, age); // Output, Alex 43
