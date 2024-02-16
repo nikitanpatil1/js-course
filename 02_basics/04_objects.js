@@ -90,3 +90,20 @@ console.log(Object.entries(user2))// out- [ [ 'id', '123abc' ], [ 'name', 'nikki
 
 console.log(user2.hasOwnProperty('isLoggedIn'))// out- true
 // used to find if that property exists in the object or not
+
+
+//*********************************** 
+
+// object destructuring
+// used to print/extract the value from the object in simplified way
+
+//In the example below, we destructure both the name and age properties from the user object.
+const user1 = { 
+    'name': 'Alex',
+    'address': '15th Park Avenue',
+    'age': 43
+}
+
+const { name, age } = user;// you can extract 1, 2 or how many values you want to extract
+
+console.log(name, age); // Output, Alex 43
