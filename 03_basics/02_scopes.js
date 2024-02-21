@@ -63,7 +63,7 @@ if(true){
 console.log(username);// error
 
 
-//************* concept *********************
+//************* concept mini hosting*********************
 
 /* 
   1)functions can be accessed before its declaration
