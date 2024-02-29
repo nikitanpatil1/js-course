@@ -43,10 +43,10 @@ for (const key in myObject) {
 
 
 // can for..in loop be used for arrays?
-const programming = ["js", "rb", "py", "java"]
-for(const key in programming){
-    // console.log(key);
-}
+// const programming = ["js", "rb", "py", "java"]
+// for(const key in programming){
+//     // console.log(key);
+// }
 /* 
 out- 
 0
@@ -58,10 +58,10 @@ out-
 */
 
 // to get the values from array then use-
-const programming2 = ["js", "rb", "py", "java"]
-for(const key in programming){
-    console.log(programming[key]);
-}
+// const programming2 = ["js", "rb", "py", "java"]
+// for(const key in programming){
+//     console.log(programming[key]);
+// }
 /* 
 out- 
 
@@ -74,3 +74,32 @@ out-
 
 
 // can for...in loop be used on Map() ?
+let myMap = new Map();
+myMap.set("IN", "India")
+myMap.set("USA", "United States of America")
+myMap.set("Fr", "France")
+
+for (const [key, value] in myMap) {
+   console.log(key)
+}// no output
+for (const key in myMap) {
+   console.log(key)
+}// no output
+for (const key in myMap) {
+   console.log(myMap)
+}// no output
+
+// as map is not iterable so it cant be written in for...in loop in this way...you can apply loop on it ...but there are different ways to apply.
+
+
+
+
+//++++++++++++ summary ++++++++++
+
+// which loop to apply on what
+/* 
+
+ object = for...in loop
+ arrays = for...of (but there are many loops that can be applied on array)
+
+*/
