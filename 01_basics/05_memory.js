@@ -1,6 +1,6 @@
-// 2 type so memomry
+// 2 type of memory
 
-// stack 
+// 1) stack 
 /*
  - used in primitive datatypes
  - in this memory we get a copy of the variable declared 
@@ -16,7 +16,7 @@ console.log(anotherName)
 // out- value of myYoutubeName = nikitas, value of anotherName = patils
 
 
-// heap 
+// 2) heap 
 /*
  - used in non-primitive datatypes
  - in this memory we get a refrence of the original value for the variable declared
@@ -29,7 +29,8 @@ let userOne ={
 }
 
 let userTwo = userOne
-userTwo.email = "nikita@google.com"; // used to access the value from the object
+userTwo.email = "nikita@google.com"; 
+// "variableName.keyName" used to access the value from the object
 
 console.log(userOne)
 console.log(userTwo)

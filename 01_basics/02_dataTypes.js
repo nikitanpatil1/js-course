@@ -1,7 +1,7 @@
 "use strict"; 
 // after writing this it treats all js code as newer version
 
-//code redability should be high
+//code readability should be high
 
 // ++++++++++++++++++++++++++
 
