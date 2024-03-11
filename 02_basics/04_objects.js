@@ -1,6 +1,7 @@
 // how to declare the object with the help of constructor
 
 //types to declare the object
+
 // 1) singleton i.e new Object()
 const user = new Object();
 
@@ -15,7 +16,9 @@ user2.isLoggedIn = false;
 
 console.log(user2)
 
-// objects in objects i.e as value
+
+
+// ++ objects in objects i.e as value ++
 
 const regularUser = {
     email: "some.gmail.com",
@@ -32,20 +35,25 @@ console.log(regularUser.fullname)// out- { userfullname: { firstname: 'nikki', l
 // and if you want to access more deep objects then just put "." and then the key u want to access
 
 
+
 //optional chaining (for later)
 
 
+
+// ++ to combine object.. 2 ways ++
 const obj1 = {1: "a", 2:"b"}
 const obj2 = {3: "a", 4:"b"}
-// to combine object.. 2 ways
 
 // 1) Object.assign()
 const obj3 = Object.assign({}, obj1, obj2)
 console.log(obj3)// out- { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
-// {} = acts as an target and the objs which we want to combine acts as source...i.e all the value will go in that empty parameter
-// {} this is an optional parameter in this type, but you should use or giv it.. as {} this indicates that all the values will get combined and its guaranteed that the result/output will be that only
-// should not use this method mostly
-
+/* 
+ - {} = acts as an target and the objs which we want to combine acts as source...
+        i.e all the value will go in that empty parameter
+ - {} this is an optional parameter in this type, but you should use or give it.. 
+   as {} this indicates that all the values will get combined and its guaranteed that the result/output will be that only
+ - should not use this method mostly
+*/
 
 // 2) spread operator
 const obj4 = {...obj1, ...obj2}
@@ -75,7 +83,8 @@ users[1].name;
 
 //******
 
-// some object methods
+// +++ object methods +++
+
 // there are many..these are some of them
 
 console.log(Object.keys(user2))//out- [ 'id', 'name', 'isLoggedIn' ]
