@@ -75,10 +75,20 @@ console.log(child.nextElementSibling)
  - The read-only childNodes property of the Node 
    interface returns a live NodeList of child nodes of the given element where the first child node is assigned index 0. 
  - Child nodes include elements, text and comments.
- - It is important to keep in mind that childNodes includes 
+ - It is important to keep in mind that childNodes includes :-
    all child nodes, including non-element nodes like text and comment. 
  - To get a collection containing only elements, 
    use Element.children instead.
  - To get data from node objects, use their properties. For example, to get the 
    name of the first childNode, you can use elementNodeReference.childNodes[0].nodeName.
+*/
+
+// .childNodes
+console.log(parent.childNodes);
+//out- NodeList(9) [text, div.day, text, div.day, text, div.day, text, div.day, text]
+
+/* 
+ NodeList or childNodes is a complex tree structure
+ though we have 4 values still it shows length as 9
+ coz it even counts the empty spaces/line break which counts as a text node which is one of the node
 */
