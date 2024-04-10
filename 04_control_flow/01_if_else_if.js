@@ -1,15 +1,29 @@
-// always the whole code should not execute...whole code should run on conditional base..so this is called the control flow or logic flow
+/* 
+ always the whole code should not execute...
+ whole code should run on conditional base..
+ so this is called the control flow or logic flow
+*/
 
-// if statement
+//+++++++++++ if statement  +++++++++++
+
 //syntax
-// if(condition){
+/* if(condition){
 
-// }// so the condition should be true then only the internal code inside the scope will execute...but if it is false then it will never go under the condition.
+ }
+so the condition should be true then only the internal code inside the scope will execute...
+but if it is false then it will never go under the condition.
+*/
 
-// if(2 != 3){
-//     console.log("executed");
-// }
-//to evalute the true in the condition..you will have to check conditions by comparing them..so there are the comparison operators which are used to compare
+if(2 != 3){
+    console.log("executed");
+}
+/*
+to evalute the true in the condition..
+you will have to check conditions by comparing them..
+so there are the comparison operators which are used to compare
+*/
+
+
 /* 
  <
  >
@@ -26,15 +40,15 @@
 // if...else statement
 
 const temperature = 41;
-// if(temperature === 41){
-//     console.log("less than 50");
-// }
-// else{
-//     console.log("greater than 50");
-// }
+if(temperature === 41){
+    console.log("less than 50");
+}
+else{
+    console.log("greater than 50");
+}
 
 
-//short hand of if
+//++++++++ short hand of if ++++++
 
 const balance = 1000
 // if (balance > 500) console.log("test"); // implicit scope
